@@ -28,3 +28,21 @@ flutter 어플리케이션을 만들 때 어플리케이션 이름을 설정할 
     <key>CFBundleName</key>
     <string>App Name</string> // Your app name here
 
+
+
+#### Android & IOS
+
+##### pubspec.yaml
+
+    dependencies:
+        flutter_launcher_name: ^0.0.1
+    flutter_launcher_name:
+        name: "App Name"
+
+설정하시고
+
+    $ flutter pub get
+    $ flutter pub run flutter_launcher_name:main
+    
+    
+하시면 Android와 IOS모두 설정이 완료돼있을겁니다
